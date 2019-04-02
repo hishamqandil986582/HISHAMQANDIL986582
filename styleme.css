@@ -64,3 +64,4 @@ ul.my-movies > li {
 .validators{
     margin-top: 30px;
 }
+a:active{ text-decoration: none }
