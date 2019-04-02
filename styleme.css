@@ -30,10 +30,9 @@ ul.neighbors {
 }
 
 a{
-    color: cadetblue;
+    color:cadetblue;
     text-decoration-line: none;
 }
-
 a:hover {
     text-decoration-line: underline;
     color: #b7fd60;
@@ -64,4 +63,3 @@ ul.my-movies > li {
 .validators{
     margin-top: 30px;
 }
-a:active{ text-decoration: none }
