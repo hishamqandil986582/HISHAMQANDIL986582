@@ -58,7 +58,7 @@ ul.my-movies {
 }
 
 ul.my-movies > li {
-    transform: rotate(180deg);
+   transform: rotate(180deg);
 }
 
 .validators{
