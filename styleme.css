@@ -32,6 +32,7 @@ ul.neighbors {
 a{
     color:cadetblue;
    text-decoration-line: none;
+
 }
 a:hover {
     text-decoration-line: underline;
