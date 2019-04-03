@@ -1,0 +1,66 @@
+body{
+    background-color: darkslategray;
+    color: white;
+    font-family: 'Courier New', Courier, Georgia, monospace;
+}
+
+h1{
+    color: burlywood;
+    font-family: "Lucida Sans Unicode", Helvetica, Arial, "sans-serif";
+    font-weight: 100;
+}
+
+h3{
+    color: yellowgreen;
+    font-family:"Lucida Sans Unicode", Helvetica, Arial, "sans-serif";
+    font-weight: 300;
+}
+
+strong{
+    font-size: 2vh;
+    color: rgb(230, 230, 47);
+}
+
+ul {
+    list-style: decimal;
+}
+
+ul.neighbors {
+    list-style: disc;
+}
+
+a{
+    color:cadetblue;
+   text-decoration-line: none;
+
+}
+a:hover {
+    text-decoration-line: underline;
+    color: #b7fd60;
+}
+
+p:first-letter {
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+dl {
+    font-size: 1.8vh;
+}
+
+dt {
+    color: #b7fd60;
+}
+
+ul.my-movies {
+    transform: rotate(180deg);
+    margin-left: 40px;
+}
+
+ul.my-movies > li {
+   transform: rotate(180deg);
+}
+
+.validators{
+    margin-top: 30px;
+}
