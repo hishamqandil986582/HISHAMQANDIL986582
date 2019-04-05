@@ -6,8 +6,9 @@
     <title>Responsive Desing</title>
 </head>
 <body>
-
+<div class="heading">
 <h2>Task List</h2>
+</div>
 
 <form action="" method="post" novalidate autocomplete="on">
     <div class="task">
@@ -29,8 +30,11 @@
         <option>personal</option>
         <option>work</option>
     </select>
-    <input type="reset" value="Save task"/>
+    <div>
+        <input type="reset" value="Save task"/>
+
     <input type="submit" value="Clear task"/>
+</div>
     <table >
         <tr id="header">
             <th class="name">Name</th>
@@ -56,6 +60,8 @@
     </table>
     <input type="button" value="Add task"/>
 </form>
-<h2>You have 3 Task</h2>
+<div class="footer">
+<label id="footer">You have 3 Task</label>
+</div>
 </body>
 </html>
