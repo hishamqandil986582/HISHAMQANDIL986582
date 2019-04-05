@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <link href="./CSS/Formcss.css" type="text/css" rel="stylesheet"/>
+    <title>Responsive Desing</title>
+</head>
+<body>
+
+<h2>Task List</h2>
+
+<form action="" method="post" novalidate autocomplete="on">
+    <div class="task">
+    <label >Task</label>
+    </div>
+    <div>
+    <input type="text" class="tasktext"  placeholder="Task" name="sdsds"/>
+    </div>
+    <div class="required by">
+    <label >Required by</label>
+    </div>
+    <div>
+    <input class="required by text" type="date"  name="required by text" />
+    </div>
+    <div>
+    <label >Category</label>
+    </div>
+    <select id="category" name="dd">
+        <option>personal</option>
+        <option>work</option>
+    </select>
+    <input type="reset" value="Save task"/>
+    <input type="submit" value="Clear task"/>
+    <table >
+        <tr id="header">
+            <th class="name">Name</th>
+            <th class="due">Due</th>
+            <th class="category">Category</th>
+        </tr>
+        <tr id="row1">
+            <th>Return library book</th>
+            <th>2013-10-5</th>
+            <th>person</th>
+        </tr>
+        <tr id="row2">
+            <th>perform project demo to stackeholders</th>
+            <th>2013-05-10</th>
+            <th>work</th>
+        </tr>
+        <tr id="row3">
+            <th>meat private</th>
+            <th>2013-10-05</th>
+            <th>person</th>
+        </tr>
+
+    </table>
+    <input type="button" value="Add task"/>
+</form>
+<h2>You have 3 Task</h2>
+</body>
+</html>
