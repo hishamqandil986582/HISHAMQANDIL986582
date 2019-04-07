@@ -4,6 +4,7 @@ function myFunctionTest(expected, function2test)
 {
     if(Array.isArray(function2test()))
     {
+        
         if(function2test().toString()==expected)
         {
             return "TEST SUCCEEDED";
@@ -24,6 +25,7 @@ function myFunctionTest(expected, function2test)
     }
 
 }
+
 
 
 /* max returns the maximum of 2 arguments */
