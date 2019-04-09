@@ -8,7 +8,7 @@
 
     let increaseFontSize = function() {
         var myText = document.getElementById("myTextArea");
-        var fontSize = window.getComputedStyle(myText, null).getPropertyValue("font-size");
+        var fontSize = window.getComputedStyle(myText,).getPropertyValue("font-size");
         myText.style.fontSize = parseInt(fontSize) + 2 + "pt";
     }
 
@@ -81,7 +81,7 @@
         return word.substring(index, word.length) + word.substring(0, index) + "ay";
     }
 
-    function vowelSoundsTransformation(word) {
+    function    vowelSoundsTransformation(word) {
         return word + "way";
     }
 
