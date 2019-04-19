@@ -38,6 +38,7 @@
         $("#maze").mouseleave(outsideTheMazeZone);
         $("#start").click(startChallenge);
         $("#end").mouseover(endChallenge);
+
     }
 
     $(mapEventHandler);

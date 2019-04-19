@@ -1,0 +1,26 @@
+#name,#state,#street
+{
+
+    margin: 10px;
+    width: 20%;
+
+
+}
+#textname,#textstreet
+{
+    width: 20%;
+    margin: 15px;
+}
+
+.taxi,.extra
+{
+    width: 50%;
+    margin: 15px;
+
+}
+.submit
+{
+    margin: 15px;
+
+}
+.

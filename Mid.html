@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="./CSS/mid.css" type="text/css" rel="stylesheet"/>
+    <script src="./Javascript/mid.js" type="text/javascript" rel="script"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+
+</head>
+<body>
+<p id="error"></p>
+<form action="http:/mum.edu" method="post">
+  <div CLASS="NAME">
+      <label id="name">Name:</label> <input id="textname" type="text" placeholder="Name" required/>
+  </div>
+    <div>
+        <label id="street">Street</label><input id="textstreet" placeholder="Street" required/>
+    </div>
+    <div class="states">
+        <label id="states" required>State</label>
+        <select id="state" required><title>select one</title>
+            <OPTION value="">select one</OPTION>
+            <OPTION value="WA">WA</OPTION>
+            <OPTION value="LA">LA</OPTION>
+        </select>
+
+    </div>
+    <div class="zip">
+        <label >Zip code</label>
+        <input type="text" id="zipcode" placeholder="zipcode" required/>
+    </div>
+    <div class="seats">
+        <label >How many seats ?</label>
+        <input type="text" id="seats" placeholder="seats" required/>
+    </div>
+    <fieldset class="taxi" >
+             <legend>Which taxi do you requast ?</legend>
+        <div>
+            <label><input type="radio" name="taxi">Car</label> </div>
+          <div> <label><input type="radio" name="taxi"> Van</label></div>
+      <div><label><input type="radio" name="taxi"> Tuk Tuk</label></div>
+
+    </fieldset>
+    <fieldset class="extra">
+        <legend>Extra</legend>
+    <div>  <label> <input type="checkbox" name="baby seat"> Baby seat</label></div>
+        <div>  <label> <input type="checkbox" name="Wheelchiar"> Wheelchiar access</label></div>
+        <div>  <label> <input type="checkbox" name="Stock Tip"> Stock Tip</label></div>
+    </fieldset>
+    <div class="special">
+    <label>Special Instruction</label>
+        <textarea id="special text"></textarea>
+    </div>
+    <input id="test22" class="submit" type="submit" value="submit Booking"/>
+</form>
+
+</body>
+</html>

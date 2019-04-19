@@ -1,18 +1,21 @@
-window.onload= function (){
-    var textarea=document.getElementById("iddd");
-
-window.alert(typeof textarea);
-    console.log(document.getElementById("myid") === $("#myid")[0]);
+$(function () {
 
 
 
-    $("li").forEach(function (ind,e) {
-
-        e= $ (e);
-        e.css('color','red');
-
+    const chelist=$('input[type=checkbox]');
+    chelist.change(function () {
+        if($(this).is(':checked'))
+        {
+            alert($(this).val());
+        }
     })
 
-};
 
-console.log("dd");
+
+// if ($('input[name="extra"]:checked').val() ==="extra1")
+  //   alert($('#1').text());
+
+
+
+ //$('input[name="extra"]')
+});
